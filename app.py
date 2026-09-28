@@ -145,7 +145,7 @@ HTML_SUCCESS = '''
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Tarjeta Activada!</title>
-    <script src="https:/cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-950 text-white font-sans antialiased flex items-center justify-center min-h-screen p-4">
     <div class="max-w-md w-full bg-gray-900 border border-gray-800 rounded-2xl p-8 text-center shadow-2xl">
