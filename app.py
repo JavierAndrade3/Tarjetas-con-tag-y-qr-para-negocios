@@ -22,6 +22,30 @@ def init_db():
 
 init_db()
 
+@app.route('/')
+def home():
+    return """
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smart Cards Neón</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-950 text-white font-sans antialiased flex items-center justify-center min-h-screen p-4">
+        <div class="max-w-md w-full bg-gray-900 border border-gray-800 rounded-2xl p-8 text-center shadow-2xl">
+            <span class="bg-fuchsia-600/20 text-fuchsia-400 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Plataforma Activa ⚡</span>
+            <h1 class="text-2xl font-bold mt-4">Smart Cards para Negocios</h1>
+            <p class="text-gray-400 text-sm mt-2">El sistema de redirección inteligente y captura de leads está funcionando correctamente en la nube.</p>
+            <div class="mt-6 p-3 bg-gray-800 rounded-xl text-xs text-gray-400">
+                Para probar una tarjeta, ingresá con su código de ruta (ej: <span class="text-fuchsia-400">/c/test1</span>)
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+
 @app.route('/c/<tarjeta_id>')
 def manejar_tarjeta(tarjeta_id):
     conn = sqlite3.connect('tarjetas.db')
