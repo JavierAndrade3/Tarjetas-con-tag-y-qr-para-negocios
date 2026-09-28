@@ -104,7 +104,7 @@ HTML_LANDING = '''
             <h1 class="text-2xl font-bold mt-2">¡Hola! Gracias por tu compra ⚡</h1>
             <p class="text-gray-400 text-sm mt-1">Seguinos en nuestras redes y configurá tu tarjeta inteligente para tu negocio.</p>
         </div>
-        <a href="https://instagram.com/tu_usuario" target="_blank" class="block w-full text-center bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:opacity-90 font-medium py-3 rounded-xl mb-6 shadow-lg transition">
+        <a href="https://www.instagram.com/javi.andradev" target="_blank" class="block w-full text-center bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:opacity-90 font-medium py-3 rounded-xl mb-6 shadow-lg transition">
             ❤️ Seguirnos en Instagram
         </a>
         <hr class="border-gray-800 my-6">
